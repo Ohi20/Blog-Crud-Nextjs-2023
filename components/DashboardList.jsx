@@ -23,6 +23,11 @@ export default async function DashboardList() {
 
   return (
     <>
+      <div>
+        <Link href={'/addTopic'}>
+          <button>Add Topic</button>
+        </Link>
+      </div>
       {topics.map((t) => (
         <div
           key={t._id}
