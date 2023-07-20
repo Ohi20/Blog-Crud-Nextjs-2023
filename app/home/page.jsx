@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Hero from 'public/hero.png';
 
 const HomePage = () => {
   return (
@@ -19,7 +20,11 @@ const HomePage = () => {
         </div>
       </div>
       <div className="flex-1 flex flex-col justify-center items-center gap-4 animate-bounce duration-75">
-        <Image src="" alt="hero" className="object-cover h-auto w-auto mt-10" />
+        <Image
+          src={Hero}
+          alt="hero"
+          className="object-cover h-auto w-auto mt-10"
+        />
       </div>
     </div>
   );

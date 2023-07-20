@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import contact from 'public/contact.png';
 
 const metadata = {
   title: 'Contact',
@@ -15,7 +16,7 @@ const Contact = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="flex-1 relative h-[500px] ">
           <Image
-            src=""
+            src={contact}
             fill={true}
             sizes=""
             alt="contact"

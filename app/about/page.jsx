@@ -1,12 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
+import illustration from 'public/illustration.jpg';
 
 const About = () => {
   return (
     <div className="">
       <div className="w-full h-[300px] relative">
         <Image
-          src=""
+          src={illustration}
           fill={true}
           alt="About Hero"
           className="object-cover sepia"
